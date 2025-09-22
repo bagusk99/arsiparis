@@ -1,0 +1,56 @@
+# Ignore node_modules and other dependencies
+/node_modules
+/yarn.lock
+/yarn-error.log
+.pnp-store
+
+# Ignore logs and debug files
+*.log
+*.debug
+*.test.log
+*.db
+*.sqlite
+*.db-journal
+
+# Ignore OS and editor specific files
+.DS_Store
+.DS_Store?
+._*
+._*
+.Spotlight-V100
+.Trashes
+.UserData
+.XcodeProfiles
+.profile
+.env
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+
+# Ignore build files
+/build
+/dist
+/out
+/lib
+/release
+
+# Ignore npm and yarn specific files
+.npmrc
+.yarn-integrity
+.yarn.lock
+.pnp
+.pnpm-store
+.yarn-error.log
+
+# Ignore IDE specific files
+*.idea
+*.vs
+*.vscode
+*.sln
+*.swp
+*.suo
+*.ntvs*
+*.njsproj
+*.sdf
+.vscode
