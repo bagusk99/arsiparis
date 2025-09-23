@@ -1,8 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
-import { Badge } from '@/components/ui/badge';
 import { Separator } from '@/components/ui/separator';
 
 import FAQContent from './components/sections/FAQContent';
@@ -13,31 +11,23 @@ import RegulationContent from './components/sections/RegulationContent';
 import FlowContent from './components/sections/FlowContent';
 import ContactContent from './components/sections/ContactContent';
 
-import { 
-  Search, 
-  ChevronDown, 
-  Home, 
-  FileText, 
-  Archive, 
-  Database, 
-  Monitor, 
-  BookOpen, 
-  GitBranch, 
-  HelpCircle, 
+import {
+  Search,
+  ChevronDown,
+  Home,
+  Archive,
+  Database,
+  Monitor,
+  BookOpen,
+  GitBranch,
+  HelpCircle,
   Phone,
   Building2,
-  Users,
   Shield,
-  Settings,
   Mail,
   MapPin,
   Clock,
-  Download,
   ExternalLink,
-  Award,
-  Target,
-  Eye,
-  Heart
 } from 'lucide-react';
 
 interface MenuItem {

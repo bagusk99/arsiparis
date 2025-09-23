@@ -1,27 +1,14 @@
 import React from 'react';
-import { 
-  Home, 
-  FileText, 
-  Archive, 
-  Database, 
-  Monitor, 
-  BookOpen, 
-  GitBranch, 
-  HelpCircle, 
+import {
+  Home,
+  Archive,
+  Database,
+  Monitor,
+  BookOpen,
+  GitBranch,
+  HelpCircle,
   Phone,
-  Building2,
-  Users,
   Shield,
-  Settings,
-  Mail,
-  MapPin,
-  Clock,
-  Download,
-  ExternalLink,
-  Award,
-  Target,
-  Eye,
-  Heart
 } from 'lucide-react';
 import HomeContent from '@/components/sections/HomeContent';
 import ConceptContent from '@/components/sections/ConceptContent';
